@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Camilo Roa — Personal Trainer</title>
+<meta name="description" content="Camilo Roa — Personal Trainer in Frankfurt & Online. Ruhiges, konsequentes Coaching für Kraft, Ästhetik und Disziplin." />
+<meta property="og:title" content="Camilo Roa — Personal Trainer" />
+<meta property="og:description" content="Ruhiges, konsequentes Coaching für Kraft, Ästhetik und Disziplin." />
+<meta property="og:image" content="assets/post.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">Camilo Roa</a>
+  <nav class="nav__links" aria-label="Navigation">
+    <a href="#about" data-i18n="nav.about">Über mich</a>
+    <a href="#principles" data-i18n="nav.principles">Prinzipien</a>
+    <a href="#offers" data-i18n="nav.training">Training</a>
+    <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+  </nav>
+  <div class="nav__right">
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button class="lang-btn" type="button" data-lang="de">DE</button>
+      <button class="lang-btn" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="es">ES</button>
+    </div>
+    <a class="nav__cta" href="#contact" data-i18n="nav.cta">Erstgespräch</a>
+    <button class="nav__toggle" id="navToggle" type="button" aria-label="Menü" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu__links" aria-label="Navigation">
+    <a href="#about" data-i18n="nav.about">Über mich</a>
+    <a href="#principles" data-i18n="nav.principles">Prinzipien</a>
+    <a href="#offers" data-i18n="nav.training">Training</a>
+    <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+  </nav>
+  <a class="btn btn--solid mmenu__cta" href="#contact" data-i18n="hero.cta">Kostenloses Erstgespräch</a>
+  <div class="lang lang--mobile" role="group" aria-label="Sprache / Language">
+    <button class="lang-btn" type="button" data-lang="de">DE</button>
+    <button class="lang-btn" type="button" data-lang="en">EN</button>
+    <button class="lang-btn" type="button" data-lang="es">ES</button>
+  </div>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__head">
+        <p class="eyebrow"><span class="eyebrow__dot"></span><span data-i18n="hero.eyebrow">Personal Trainer — Frankfurt &amp; Online</span></p>
+        <h1 class="hero__title" data-i18n-html="hero.title">Nicht denken.<br><span class="ital">Tun.</span></h1>
+      </div>
+      <div class="hero__meta">
+        <p class="hero__lead" data-i18n="hero.lead">Kopf aus. Zweifel leise. Taten laut. Ich baue mit dir Schritt für Schritt den Körper und die Disziplin, die du dir seit Jahren vornimmst.</p>
+        <div class="hero__actions">
+          <a class="btn btn--solid" href="#contact" data-i18n="hero.cta">Kostenloses Erstgespräch</a>
+          <a class="link-arrow" href="https://www.instagram.com/camiloor05/" target="_blank" rel="noopener"><span data-i18n="hero.instagram">Instagram ansehen</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="hero__figure reveal">
+        <img src="assets/post.jpg" alt="Camilo Roa beim Training im Gym" loading="eager" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- STATEMENT -->
+  <section class="statement">
+    <div class="statement__inner">
+      <p class="statement__label" data-i18n="statement.label">Philosophie</p>
+      <p class="statement__text reveal" data-i18n-html="statement.text">Disziplin schlägt <span class="ital">Motivation.</span> Wir bauen Gewohnheiten, die auch an schlechten Tagen tragen — ohne Lärm, ohne Ausreden.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__index"><span class="num">01</span><span class="rule"></span><span data-i18n="nav.about">Über mich</span></div>
+    <div class="about__body">
+      <figure class="about__figure reveal">
+        <img src="assets/hero.jpg" alt="Camilo Roa im Gym" loading="lazy" />
+      </figure>
+      <div class="about__text">
+        <h2 class="reveal" data-i18n-html="about.h2">Aus Kolumbien.<br>Für dein bestes Ich.</h2>
+        <p class="reveal" data-i18n="about.p1">Ich bin Camilo — zu Hause zwischen Kolumbien und Deutschland. Training ist für mich keine Phase, sondern eine Haltung: jeden Tag eine ruhige, klare Entscheidung für dich selbst, auch wenn du keine Lust hast.</p>
+        <p class="reveal" data-i18n="about.p2">Als Personal Trainer arbeite ich mit Menschen, die genug von halben Sachen haben. Kein Plan von der Stange, sondern ein System, das zu deinem Alltag, deinem Körper und deinem Kopf passt.</p>
+        <ul class="tags reveal">
+          <li data-i18n="tag.strength">Kraft &amp; Ästhetik</li>
+          <li data-i18n="tag.fatloss">Fettabbau</li>
+          <li data-i18n="tag.nutrition">Ernährung</li>
+          <li data-i18n="tag.mindset">Mindset</li>
+        </ul>
+        <p class="about__langs reveal" data-i18n="about.langs">Coaching auf Deutsch · Español · English</p>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat reveal"><span class="stat__num" data-count="6">0</span><span class="stat__suffix">+</span><p data-i18n="stat.years">Jahre Erfahrung</p></div>
+      <div class="stat reveal"><span class="stat__num" data-count="120">0</span><span class="stat__suffix">+</span><p data-i18n="stat.clients">Betreute Klienten</p></div>
+      <div class="stat reveal"><span class="stat__num" data-count="3">0</span><p data-i18n="stat.languages">Sprachen</p></div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section class="principles" id="principles">
+    <div class="section__index"><span class="num">02</span><span class="rule"></span><span data-i18n="nav.principles">Prinzipien</span></div>
+    <h2 class="principles__title reveal" data-i18n="principles.title">Woran ich glaube</h2>
+    <ol class="plist">
+      <li class="pitem reveal"><span class="pitem__n">01</span><div><h3 data-i18n="p1.h3">Disziplin schlägt Motivation</h3><p data-i18n="p1.p">Motivation kommt und geht. Disziplin bleibt. Wir bauen Gewohnheiten, die auch an schlechten Tagen tragen.</p></div></li>
+      <li class="pitem reveal"><span class="pitem__n">02</span><div><h3 data-i18n="p2.h3">Keine Ausreden</h3><p data-i18n="p2.p">„Keine Zeit", „kein Kopf", „nächste Woche". Wir streichen die Ausreden und ersetzen sie durch einen klaren Plan.</p></div></li>
+      <li class="pitem reveal"><span class="pitem__n">03</span><div><h3 data-i18n="p3.h3">Respect yourself</h3><p data-i18n="p3.p">Dein Körper ist die Wohnung, in der du lebst. Training ist Selbstrespekt — kein Luxus, sondern Basis.</p></div></li>
+      <li class="pitem reveal"><span class="pitem__n">04</span><div><h3 data-i18n="p4.h3">Choose yourself</h3><p data-i18n="p4.p">Jeden Tag triffst du eine Entscheidung. Ich sorge dafür, dass du sie ruhig und konsequent für dich selbst triffst.</p></div></li>
+    </ol>
+  </section>
+
+  <!-- OFFERS -->
+  <section class="offers" id="offers">
+    <div class="section__index"><span class="num">03</span><span class="rule"></span><span data-i18n="nav.training">Training</span></div>
+    <h2 class="offers__title reveal" data-i18n="offers.title">Such dir deinen Weg</h2>
+    <div class="offers__grid">
+      <article class="offer reveal">
+        <p class="offer__tag" data-i18n="o1.tag">Einzeln</p>
+        <h3 data-i18n="o1.h3">Personal Training</h3>
+        <p class="offer__desc" data-i18n="o1.desc">Du und ich, im Gym. Jede Wiederholung kontrolliert, jede Woche progressiv.</p>
+        <ul class="offer__list">
+          <li data-i18n="o1.li1">Individueller Trainingsplan</li>
+          <li data-i18n="o1.li2">Technik-Korrektur live</li>
+          <li data-i18n="o1.li3">Wöchentliche Anpassung</li>
+        </ul>
+        <p class="offer__price"><span class="offer__from" data-i18n="offer.from">ab</span> 75€ <span class="offer__unit" data-i18n="o1.unit">/ Einheit</span></p>
+        <a class="btn btn--outline btn--full" href="#contact" data-i18n="offer.cta">Anfragen</a>
+      </article>
+
+      <article class="offer offer--feature reveal">
+        <p class="offer__tag" data-i18n="o2.tag">Empfohlen</p>
+        <h3 data-i18n="o2.h3">Online-Coaching</h3>
+        <p class="offer__desc" data-i18n="o2.desc">Volles Coaching, ortsunabhängig. Plan, Check-ins und Support direkt aufs Handy.</p>
+        <ul class="offer__list">
+          <li data-i18n="o2.li1">App-basierter Plan</li>
+          <li data-i18n="o2.li2">Video-Feedback</li>
+          <li data-i18n="o2.li3">Chat-Support, 7 Tage</li>
+          <li data-i18n="o2.li4">Monatlicher Strategie-Call</li>
+        </ul>
+        <p class="offer__price"><span class="offer__from" data-i18n="offer.from">ab</span> 149€ <span class="offer__unit" data-i18n="o2.unit">/ Monat</span></p>
+        <a class="btn btn--solid btn--full" href="#contact" data-i18n="offer.cta">Anfragen</a>
+      </article>
+
+      <article class="offer reveal">
+        <p class="offer__tag" data-i18n="o3.tag">Ernährung</p>
+        <h3 data-i18n="o3.h3">Ernährungsplan</h3>
+        <p class="offer__desc" data-i18n="o3.desc">Kein Verzicht-Dogma. Ein Ernährungssystem, das zu deinem Leben passt.</p>
+        <ul class="offer__list">
+          <li data-i18n="o3.li1">Kalorien &amp; Makros</li>
+          <li data-i18n="o3.li2">Alltagstaugliche Rezepte</li>
+          <li data-i18n="o3.li3">Anpassung nach 4 Wochen</li>
+        </ul>
+        <p class="offer__price"><span class="offer__from" data-i18n="offer.from">ab</span> 59€ <span class="offer__unit" data-i18n="o3.unit">/ Plan</span></p>
+        <a class="btn btn--outline btn--full" href="#contact" data-i18n="offer.cta">Anfragen</a>
+      </article>
+    </div>
+    <p class="offers__note reveal" data-i18n="offers.note">Platzhalter-Preise — Pakete &amp; Konditionen legen wir gemeinsam im Erstgespräch fest.</p>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process">
+    <div class="section__index"><span class="num">04</span><span class="rule"></span><span data-i18n="idx.process">Ablauf</span></div>
+    <div class="process__grid">
+      <div class="pstep reveal"><span class="pstep__n">01</span><h3 data-i18n="ps1.h3">Erstgespräch</h3><p data-i18n="ps1.p">Wir klären dein Ziel, deinen Alltag und wo du stehst. Kostenlos &amp; unverbindlich.</p></div>
+      <div class="pstep reveal"><span class="pstep__n">02</span><h3 data-i18n="ps2.h3">Dein Plan</h3><p data-i18n="ps2.p">Training &amp; Ernährung, exakt auf dich zugeschnitten. Kein Copy-Paste.</p></div>
+      <div class="pstep reveal"><span class="pstep__n">03</span><h3 data-i18n="ps3.h3">Umsetzung</h3><p data-i18n="ps3.p">Wir arbeiten ruhig und konsequent. Ich korrigiere und halte dich accountable.</p></div>
+      <div class="pstep reveal"><span class="pstep__n">04</span><h3 data-i18n="ps4.h3">Fortschritt</h3><p data-i18n="ps4.p">Wir messen, passen an und feiern echte Ergebnisse — Woche für Woche.</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="cta" id="contact">
+    <div class="section__index"><span class="num">05</span><span class="rule"></span><span data-i18n="nav.contact">Kontakt</span></div>
+    <h2 class="cta__title reveal" data-i18n-html="cta.title">Hör auf zu warten.<br><span class="ital">Fang an.</span></h2>
+    <p class="cta__lead reveal" data-i18n="cta.lead">Schreib mir eine Nachricht — wir finden in Ruhe heraus, ob wir zusammenpassen. Keine Verpflichtung, nur Klartext.</p>
+    <div class="cta__actions reveal">
+      <a class="btn btn--solid" href="https://wa.me/000000000000?text=Hi%20Camilo%2C%20ich%20interessiere%20mich%20f%C3%BCr%20Coaching." target="_blank" rel="noopener" data-i18n="cta.whatsapp">WhatsApp schreiben</a>
+      <a class="link-arrow" href="mailto:hallo@camiloroa.de"><span data-i18n="cta.email">E-Mail senden</span><span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="cta__hint" data-i18n="cta.hint">WhatsApp-Nummer &amp; E-Mail sind Platzhalter — hier kommen Camilos echte Kontaktdaten rein.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <a class="footer__brand" href="#top">Camilo Roa</a>
+    <nav class="footer__social" aria-label="Social Media">
+      <a href="https://www.instagram.com/camiloor05/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/000000000000" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:hallo@camiloroa.de">E-Mail</a>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year">2026</span> Camilo Roa · <span data-i18n="footer.role">Personal Trainer</span></p>
+    <p class="footer__claim" data-i18n="footer.claim">Nicht denken. Tun.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
