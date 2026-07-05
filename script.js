@@ -42,7 +42,8 @@
       "cta.lead": "Schreib mir eine Nachricht — wir finden in Ruhe heraus, ob wir zusammenpassen. Keine Verpflichtung, nur Klartext.",
       "cta.whatsapp": "WhatsApp schreiben", "cta.email": "E-Mail senden",
       "cta.hint": "WhatsApp-Nummer & E-Mail sind Platzhalter — hier kommen Camilos echte Kontaktdaten rein.",
-      "footer.role": "Personal Trainer", "footer.claim": "Nicht denken. Tun."
+      "footer.role": "Personal Trainer", "footer.claim": "Nicht denken. Tun.",
+      "footer.imprint": "Impressum", "footer.privacy": "Datenschutz"
     },
     en: {
       "nav.about": "About", "nav.principles": "Principles", "nav.training": "Training",
@@ -81,7 +82,8 @@
       "cta.lead": "Send me a message — we'll calmly find out if we're a fit. No obligation, just straight talk.",
       "cta.whatsapp": "Message on WhatsApp", "cta.email": "Send an email",
       "cta.hint": "WhatsApp number & email are placeholders — Camilo's real contact details go here.",
-      "footer.role": "Personal Trainer", "footer.claim": "Don't think. Do it."
+      "footer.role": "Personal Trainer", "footer.claim": "Don't think. Do it.",
+      "footer.imprint": "Imprint", "footer.privacy": "Privacy"
     },
     es: {
       "nav.about": "Sobre mí", "nav.principles": "Principios", "nav.training": "Entrenamiento",
@@ -120,7 +122,8 @@
       "cta.lead": "Escríbeme un mensaje — vemos con calma si encajamos. Sin compromiso, solo claridad.",
       "cta.whatsapp": "Escribir por WhatsApp", "cta.email": "Enviar un email",
       "cta.hint": "El número de WhatsApp y el email son de ejemplo — aquí irán los datos reales de Camilo.",
-      "footer.role": "Entrenador personal", "footer.claim": "No pienses. Hazlo."
+      "footer.role": "Entrenador personal", "footer.claim": "No pienses. Hazlo.",
+      "footer.imprint": "Aviso legal", "footer.privacy": "Privacidad"
     }
   };
 
